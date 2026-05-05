@@ -1,0 +1,27 @@
+# Environnement virtuel
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Data (fichiers lourds)
+data/
+
+# Modèles (si fichiers lourds)
+models/*.pkl
+models/*.h5
+models/*.joblib
+
+# Variables d'environnement
+.env
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
