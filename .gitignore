@@ -8,9 +8,6 @@ __pycache__/
 *.pyd
 .ipynb_checkpoints/
 
-# Data (fichiers lourds)
-data/
-
 # Modèles (si fichiers lourds)
 models/*.pkl
 models/*.h5
