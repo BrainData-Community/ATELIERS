@@ -5,11 +5,6 @@ from fastapi.middleware.cors import CORSMiddleware
 
 import joblib
 import sklearn
-
-print("Version sklearn :", sklearn.__version__)
-
-import sys
-print(sys.executable)
     
 app = FastAPI()
 
